@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Optional
+from typing import Any
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -13,12 +13,38 @@ _component_func = components.declare_component(
 
 # Create the python function that will be called
 def streamlit_social_share(
-    key: Optional[str] = None,
-):
-    """
-    Add a descriptive docstring
+    text: str = "",
+    url: str | None = None,
+    image: str | None = None,
+    networks: list[str] | None = None,
+    key: str | None = None,
+) -> Any:
+    """Display social sharing buttons in a Streamlit app.
+
+    Parameters
+    ----------
+    text : str, optional
+        Text to include in the shared message, by default an empty string.
+    url : str | None, optional
+        The URL to share. If ``None``, the current page URL is used.
+    image : str | None, optional
+        Image to attach to the share when supported.
+    networks : list[str] | None, optional
+        Social networks to display. If ``None``, all default networks are shown.
+    key : str | None, optional
+        An optional unique key to identify the component.
+
+    Returns
+    -------
+    Any
+        The name of the network used for sharing or ``None`` if no share was
+        performed.
     """
     component_value = _component_func(
+        text=text,
+        url=url,
+        image=image,
+        networks=networks,
         key=key,
     )
 
