@@ -22,7 +22,7 @@ st.write("## 📱 All Available Networks")
 social_media = ["x", "threads", "linkedin", "facebook", "instagram", "reddit"]
 messaging = ["signal", "telegram", "whatsapp", "email"]
 
-all_networks = social_media + messaging + professional
+all_networks = social_media + messaging
 
 st.write("Click a button below to share!")
 
