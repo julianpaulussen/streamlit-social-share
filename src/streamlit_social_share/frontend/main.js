@@ -57,12 +57,6 @@ const SOCIAL_NETWORKS = {
     icon: '🐙',
     getUrl: (text, url, image) => `https://github.com/share?url=${encodeURIComponent(url)}&title=${encodeURIComponent(text)}`
   },
-  mastodon: {
-    name: 'Mastodon',
-    color: '#6364FF',
-    icon: '🐘',
-    getUrl: (text, url, image) => `https://mastodon.social/share?text=${encodeURIComponent(text + ' ' + url)}`
-  },
   researchgate: {
     name: 'ResearchGate',
     color: '#00D0B7',
