@@ -87,12 +87,6 @@ const SOCIAL_NETWORKS = {
     icon: '📷',
     getUrl: (text, url, image) => `https://www.instagram.com/?url=${encodeURIComponent(url)}`
   },
-  tiktok: {
-    name: 'TikTok',
-    color: '#FF0050',
-    icon: '🎵',
-    getUrl: (text, url, image) => `https://www.tiktok.com/share?url=${encodeURIComponent(url)}`
-  },
   email: {
     name: 'Email',
     color: '#666666',
