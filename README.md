@@ -10,7 +10,7 @@ A modern, customizable social sharing component for Streamlit applications. Enab
 
 ## ✨ Features
 
-- **Multiple Built-in Networks**: X (Twitter), LinkedIn, Facebook, WhatsApp, Telegram, Signal, and more
+- **Multiple Built-in Networks**: X (Twitter), LinkedIn, Facebook, WhatsApp, Telegram and more
 - **Custom Networks**: Create your own sharing buttons with custom styling and URLs
 - **Return Values**: Get feedback on which platform users shared to
 - **Easy Integration**: One-line integration with your Streamlit apps
@@ -23,20 +23,12 @@ A modern, customizable social sharing component for Streamlit applications. Enab
 - **Threads** - Meta's new social platform
 - **LinkedIn** - Professional network sharing
 - **Facebook** - Share to Facebook timeline
- - **Instagram** - Share to Instagram stories via link or image (feed posts not supported via URL)
-- **TikTok** - Share to TikTok
 - **Reddit** - Community discussions
 
 ### 💬 Messaging
-- **Signal** - Privacy-focused messaging
 - **Telegram** - Share to Telegram chats
 - **WhatsApp** - Share via WhatsApp messages
-- **Discord** - Gaming and community platform
 - **Email** - Opens default email client
-
-### 💼 Professional & Development
-- **GitHub** - Share repositories and code
-- **StackOverflow** - Developer community
 
 ## 📦 Installation
 

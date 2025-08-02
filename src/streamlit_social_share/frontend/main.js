@@ -19,7 +19,7 @@ const SOCIAL_NETWORKS = {
     name: 'LinkedIn',
     color: '#0077B5',
     icon: '💼',
-    getUrl: (text, url, image) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`
+    getUrl: (text, url, image) => `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(text)}`
   },
   reddit: {
     name: 'Reddit',
@@ -50,21 +50,6 @@ const SOCIAL_NETWORKS = {
     color: '#000000',
     icon: '🧵',
     getUrl: (text, url, image) => `https://www.threads.net/intent/post?text=${encodeURIComponent(text + ' ' + url)}`
-  },
-  instagram: {
-    name: 'Instagram',
-    color: '#E4405F',
-    icon: '📷',
-    getUrl: (text, url, image) => {
-      // Instagram only supports sharing via their story creation endpoint.
-      // When an image URL is provided we'll attempt to prefill the story
-      // with the image; otherwise we fall back to sharing a link sticker.
-      const base = 'https://www.instagram.com/create/story/'
-      if (image) {
-        return `${base}?media=${encodeURIComponent(image)}`
-      }
-      return `${base}?url=${encodeURIComponent(url)}`
-    }
   },
   email: {
     name: 'Email',

@@ -19,8 +19,8 @@ Users can share your content across various social media platforms with just one
 st.write("## 📱 All Available Networks")
 
 # Networks organized by category and sorted by color (dark to light)
-social_media = ["x", "threads", "linkedin", "facebook", "instagram", "reddit"]
-messaging = ["signal", "telegram", "whatsapp", "email"]
+social_media = ["x", "threads", "linkedin", "facebook", "reddit"]
+messaging = ["telegram", "whatsapp", "email"]
 
 all_networks = social_media + messaging
 
