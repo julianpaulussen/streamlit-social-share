@@ -37,7 +37,6 @@ A modern, customizable social sharing component for Streamlit applications. Enab
 
 ### 💼 Professional & Development
 - **GitHub** - Share repositories and code
-- **ResearchGate** - Academic and research network
 - **StackOverflow** - Developer community
 
 ## 📦 Installation

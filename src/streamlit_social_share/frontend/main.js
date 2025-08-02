@@ -57,12 +57,6 @@ const SOCIAL_NETWORKS = {
     icon: '🐙',
     getUrl: (text, url, image) => `https://github.com/share?url=${encodeURIComponent(url)}&title=${encodeURIComponent(text)}`
   },
-  researchgate: {
-    name: 'ResearchGate',
-    color: '#00D0B7',
-    icon: '🔬',
-    getUrl: (text, url, image) => `https://www.researchgate.net/share/url?url=${encodeURIComponent(url)}&title=${encodeURIComponent(text)}`
-  },
   youtube: {
     name: 'YouTube',
     color: '#FF0000',
