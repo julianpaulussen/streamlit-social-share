@@ -4,13 +4,13 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.0+-red.svg)](https://streamlit.io)
 
-A modern, customizable social sharing component for Streamlit applications. Enable users to share your content across 17+ social platforms with beautiful, responsive buttons.
+A modern, customizable social sharing component for Streamlit applications. Enable users to share your content across multiple social platforms with beautiful, responsive buttons.
 
 ![Demo](https://via.placeholder.com/800x400/1f1f1f/ffffff?text=Streamlit+Social+Share+Demo)
 
 ## ✨ Features
 
-- **17+ Built-in Networks**: X (Twitter), LinkedIn, Facebook, WhatsApp, Telegram, Signal, and more
+- **Multiple Built-in Networks**: X (Twitter), LinkedIn, Facebook, WhatsApp, Telegram, Signal, and more
 - **Custom Networks**: Create your own sharing buttons with custom styling and URLs
 - **Return Values**: Get feedback on which platform users shared to
 - **Easy Integration**: One-line integration with your Streamlit apps
@@ -38,7 +38,6 @@ A modern, customizable social sharing component for Streamlit applications. Enab
 ### 💼 Professional & Development
 - **GitHub** - Share repositories and code
 - **ResearchGate** - Academic and research network
-- **Mastodon** - Decentralized social network
 - **StackOverflow** - Developer community
 
 ## 📦 Installation
