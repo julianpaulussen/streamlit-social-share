@@ -51,29 +51,11 @@ const SOCIAL_NETWORKS = {
     icon: '📱',
     getUrl: (text, url, image) => `https://signal.me/#${encodeURIComponent(text + ' ' + url)}`
   },
-  github: {
-    name: 'GitHub',
-    color: '#333333',
-    icon: '🐙',
-    getUrl: (text, url, image) => `https://github.com/share?url=${encodeURIComponent(url)}&title=${encodeURIComponent(text)}`
-  },
-  youtube: {
-    name: 'YouTube',
-    color: '#FF0000',
-    icon: '📺',
-    getUrl: (text, url, image) => `https://www.youtube.com/share?url=${encodeURIComponent(url)}&title=${encodeURIComponent(text)}`
-  },
   threads: {
     name: 'Threads',
     color: '#000000',
     icon: '🧵',
     getUrl: (text, url, image) => `https://www.threads.net/intent/post?text=${encodeURIComponent(text + ' ' + url)}`
-  },
-  stackoverflow: {
-    name: 'StackOverflow',
-    color: '#F58025',
-    icon: '📚',
-    getUrl: (text, url, image) => `https://stackoverflow.com/questions/ask?title=${encodeURIComponent(text)}&body=${encodeURIComponent('Check out: ' + url)}`
   },
   instagram: {
     name: 'Instagram',

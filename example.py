@@ -21,7 +21,6 @@ st.write("## 📱 All Available Networks")
 # Networks organized by category and sorted by color (dark to light)
 social_media = ["x", "threads", "linkedin", "facebook", "instagram", "reddit"]
 messaging = ["signal", "telegram", "whatsapp", "email"]
-professional = ["github", "stackoverflow", "youtube"]
 
 all_networks = social_media + messaging + professional
 

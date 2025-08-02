@@ -26,7 +26,6 @@ A modern, customizable social sharing component for Streamlit applications. Enab
 - **Instagram** - Direct to Instagram (mobile)
 - **TikTok** - Share to TikTok
 - **Reddit** - Community discussions
-- **YouTube** - Video platform sharing
 
 ### 💬 Messaging
 - **Signal** - Privacy-focused messaging
