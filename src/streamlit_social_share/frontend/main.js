@@ -45,12 +45,6 @@ const SOCIAL_NETWORKS = {
     icon: '✈️',
     getUrl: (text, url, image) => `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`
   },
-  signal: {
-    name: 'Signal',
-    color: '#3A76F0',
-    icon: '📱',
-    getUrl: (text, url, image) => `https://signal.me/#${encodeURIComponent(text + ' ' + url)}`
-  },
   threads: {
     name: 'Threads',
     color: '#000000',
