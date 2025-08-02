@@ -23,7 +23,7 @@ A modern, customizable social sharing component for Streamlit applications. Enab
 - **Threads** - Meta's new social platform
 - **LinkedIn** - Professional network sharing
 - **Facebook** - Share to Facebook timeline
-- **Instagram** - Direct to Instagram (mobile)
+ - **Instagram** - Share to Instagram stories via link or image (feed posts not supported via URL)
 - **TikTok** - Share to TikTok
 - **Reddit** - Community discussions
 
