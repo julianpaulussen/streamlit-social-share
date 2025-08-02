@@ -13,7 +13,7 @@ const SOCIAL_NETWORKS = {
     name: 'X',
     color: '#000000',
     icon: '𝕏',
-    getUrl: (text, url, image) => `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
+    getUrl: (text, url, image) => `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
   },
   linkedin: {
     name: 'LinkedIn',
