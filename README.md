@@ -1,7 +1,7 @@
 # 🚀 Streamlit Social Share
 
 [![PyPI version](https://badge.fury.io/py/streamlit-social-share.svg)](https://badge.fury.io/py/streamlit-social-share)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.0+-red.svg)](https://streamlit.io)
 
 A modern, customizable social sharing component for Streamlit applications. Enable users to share your content across multiple social platforms with beautiful, responsive buttons.
